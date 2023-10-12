@@ -1,0 +1,35 @@
+
+.icon-holder i{
+    font-size: 16px;
+}
+.the-first-icon{
+    background-color:purple;
+}
+.the-first-icon:hover{
+    background-color: blue;
+}
+.btn-dark{
+    border: none;
+}
+.btn-dark:hover{
+    background-color: blue;
+}
+.btn-primary{
+    border: none;
+}
+.btn-primary:hover{
+    background-color: blue;
+}
+.btn-primary:active{
+    background-color: purple;
+}
+.text-warnings{
+    color: rgb(206, 206, 38);
+    font-size: 15px;
+}
+.related-products-display{
+    gap: 47px;
+}
+
+
+

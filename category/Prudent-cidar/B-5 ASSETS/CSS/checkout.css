@@ -1,0 +1,13 @@
+.link-holder a{
+    text-decoration: none;
+}
+.link-holder a:hover{
+    text-decoration:underline;
+}
+.tex-tertiary{
+    color: grey;
+    
+}
+.d-flex{
+    align-items: center;
+}

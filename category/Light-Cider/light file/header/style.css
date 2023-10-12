@@ -1,0 +1,154 @@
+header {
+   
+   background-color: white;
+   padding: 25px;
+   display: flex;
+   justify-content: space-between;
+  
+}
+
+@media (max-width:456px) {
+  header  {
+      display: flex;
+      padding: 1px;
+      margin-left: 2px;
+   
+
+  }
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+    margin: auto;
+  
+}
+
+@media (max-width:456px) {
+  nav  {
+      display: flex;
+      gap: 0;
+      font-size: 8px;
+      margin-left: 2px;
+
+  }
+}
+
+
+.navtop a{
+    text-decoration: none;
+    color: black;
+   
+  
+
+   
+}
+
+
+ul li a:hover {
+  color:blue
+}
+
+#become-seller{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color: black;
+  height: 35px;
+  width: 180px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: -4px;
+}
+
+
+#become-seller:hover{
+  background: blue;
+}
+.contact {
+  background-color: blue;
+  padding: 50px;
+  color: white;
+  margin-top: 10%;
+
+}
+
+#search-button {
+    font-size: 14px;
+    width: 205px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    color: #666666;
+    padding-left: 10px;
+    height: 30px;
+    border-width: none;
+    margin-top: -9px;
+   
+  }
+ 
+  
+  #search-icon {
+    padding-right: 10px;
+    margin-top: -9px;
+    
+  }
+  .ri-search-line {
+    margin-left: -53px;
+    padding-top: 6px;
+  }
+ 
+  #account-icon {
+    color: #4B0082 ;
+    padding-top: -20px;
+  }
+    
+  .dropdown {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #cd31d3;
+    padding: 5px;
+    line-height: 30px;
+    align-items: center;
+    width: 220px;
+    /* opacity: 1px; */
+    border-radius: 10px;
+    right: 0;
+    
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+   
+  }
+
+  .dropdown-content a{
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  #drop-icon {
+    margin-right: 10px;
+    
+  }
+ .cider-logo {
+  margin-top: -16px;
+ }
+ 
+@media (max-width:456px) {
+  .cider-logo  {
+      visibility: hidden;
+  }
+}
+ #nav-icon {
+  margin-top: -20px;
+ }

@@ -1,0 +1,192 @@
+
+.home-phone a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-phone {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.Techno {
+    padding-left: 60px;
+    padding-right: 10px;
+    color: white;
+    font-size: 23px;
+     
+}
+
+.shop a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+#phones-tablets {
+    color: blue;
+}
+.phone-image {
+    padding-left: 750px;
+    /* padding-top: -250px; */
+    
+}
+.viewall {
+justify-content: space-between;
+padding-top: 55px;
+padding-bottom: 35px;
+
+}
+
+
+.rating-text {
+    line-height: 10px;
+    padding-top: 20px;
+}
+
+.rating-text-2 {
+    line-height: 10px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.ri-heart-line {
+    background-color: #4B0082; 
+    width: 31px;
+    border-radius: 50% ;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 6px;
+    float: right;
+}
+
+.ri-heart-line:hover {
+    background-color: blue;
+}
+
+.ri-shopping-cart-2-line {
+    background-color: #4B0082; 
+    border-radius: 50% ;
+    font-size: 18px;
+    width: 31px;
+    text-align: center;
+    float: right;
+    margin-top: 0px;
+   
+   
+}
+
+.ri-shopping-cart-2-line:hover {
+    background-color: blue;
+}
+
+#iphone13 {
+   
+    font-weight: bold;
+}
+
+#iphone13-2 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#price {
+    color: #4B0082 ;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#price-2 {
+    color: #4B0082 ;
+    /* padding-right: 20px; */
+    font-weight: bold;
+    
+
+}
+
+#phoneindiv {
+  
+  padding-top: 40px;
+  justify-content: center;
+   
+}
+
+.ri-star-s-fill {
+    color: #ffd700;
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+.ri-star-fill {
+    color: #ffd700;
+    font-size: 12px;
+}
+
+.view {
+    background-color: blue; 
+    border-radius: 10px;
+}
+
+.view:hover {
+    background-color: #4B0082;
+    border-radius: 10px;
+}
+
+#other-b{
+    color: rgb(185, 176, 176);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.div-card{
+    width: 100%;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.row-2 {
+    display: flex;
+    gap: 37px;
+}
+
+.all-button {
+  background-color: black;
+}
+.all-button:hover {
+    background-color: blue;
+}
+
+.discount-button {
+    background-color: blue;
+    height: 35px;
+}
+
+.discount-button:hover {
+    background-color: #4B0082;
+
+}
+
+@media (max-width:600px) {
+    .bottom-hide {
+        visibility: hidden;
+    }
+    .col-sm-12 {
+        margin-top: 20px;
+    }
+    .last-row  {
+        margin-bottom: 30px;
+    }
+    .row-2 {
+        display: flex;
+        gap: 20px;
+    }
+    .related {
+        margin-top: 25px;
+    }
+   
+}

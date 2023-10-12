@@ -1,0 +1,128 @@
+.home-phone {
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.slider {
+    background-color:#4B0082;
+    margin-bottom: -170px;
+    padding: 25px;
+}
+.Techno {
+    padding-left: 60px;
+    padding-right: 10px;
+    color: white;
+    font-size: 23px;
+     
+}
+
+.shop a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.phones-tablets {
+    color: blue;
+}
+.phone-image {
+    padding-left: 750px;
+    /* padding-top: -250px; */
+    
+}
+.viewall {
+justify-content: space-between;
+padding-top: 55px;
+padding-bottom: 35px;
+
+
+}
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 8px;
+  width: 110px;
+  border-radius: 10px;
+ 
+}
+button:hover {
+    background-color:#4B0082;
+}
+
+
+.iphone-1 {
+    /* padding-bottom: 5px; */
+}
+#buy-now {
+    background-color: black;
+    color: white;
+    width: 250px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    padding: 10px;
+   
+   
+}
+
+#buy-now:hover {
+    background-color: blue;
+    
+}
+/* .cart-icon {
+    padding-top: 5px;
+
+} */
+/* div i {
+    float: right;
+   
+} */
+.ri-heart-line {
+    background-color: #4B0082; 
+    width: 31px;
+    border-radius: 50% ;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 6px;
+    float: right;
+}
+
+.ri-heart-line:hover {
+    background-color: blue;
+}
+
+.ri-shopping-cart-2-line {
+    background-color: #4B0082; 
+    border-radius: 50% ;
+    font-size: 18px;
+    width: 31px;
+    text-align: center;
+    float: right;
+    margin-top: 2px;
+   
+   
+}
+.rating-text {
+    line-height: 10px;
+    padding-top: 20px;
+}
+.ri-shopping-cart-2-line:hover {
+    background-color: blue;
+}
+#iphone13 {
+   
+    font-weight: bold;
+}
+
+#price {
+    color: #4B0082 ;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.ri-star-s-fill {
+    color: #ffd700;
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+
+

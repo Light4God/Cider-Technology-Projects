@@ -1,0 +1,14 @@
+.text-primary a{
+    text-decoration: none;
+}
+.image {
+   object-fit: contain;
+   
+}
+
+@media (max-width:456px) {
+    .signup-image-hide  {
+        visibility: hidden;
+    }
+}
+

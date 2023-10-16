@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Cart</title>
+</head>
+<body>
+   <div class="container">
+     <!-- Our html Home and Cart -->
+     <div class="blank">
+        <a href="#" class="edit1">Home</a>
+        <a href="#" class="edit2">/  Cart</a>          
+    </div><br><br>
+    <!-- multiple similar element -->
+    <div class="topper">
+        <div class="Product"><p> Product</p></div>
+        <div class="Price"><p>Price</p></div>
+        <div class="Quality"><p>Quantity</p></div>
+        <div class="Total"><p>Sub Total</p></div>
+    </div><br><br>
+    <div class="glasses">
+        <div class="myimg1"><p>
+        <img src="dlcf.jpg" alt="image" width="70px" height="50px">
+        </p></div>
+        <div class="blue"><p>Blue Light Glasses</p></div>
+        <div class="action1"><p>N30,000</p></div>
+        <form action="" id="selector" class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+            <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="00000" required name="People"></p>
+        </form>
+        <div class="action2"><p>N30,000</p></div>
+    </div><br>
+    <div class="macbook">
+        <div class="myimg2">
+         <p><img src="christian.jpg" alt="image" width="65px" height="45px"></p>
+        </div>
+        <div class="Apple"><p>Apple MacBook Pro M1</p></div>
+        <div class="act"><p>N300,000</p></div>
+        <form action="" id="selector1" class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge"> 
+            <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="00000" required name="People"></p>
+        </form>
+        <div class="act0"><p>N300,000</p></div>
+    </div><br>
+    <!-- html for return and update codes -->
+    <div class="row">
+        <button id="returnupdate">
+            <div>
+                <div class="return"><p>Return To Shop</p></div>
+                <div class="update"><p>Update Cart</p></div>
+            </div>
+        </button>
+    </div>
+    <!-- html codes generator -->
+    <div>
+        <div id="codes">
+            <form action="">
+                <label for="text"></label>
+            <input class="coupon" type="text" name="Coupon" placeholder="INPUT COUPON CODE">
+            </form>
+           <button>
+            <div class="apply"><p>Apply Code</p></div>
+           </button>
+        </div>
+    </div>
+    <!-- Cart Total Code -->
+    <div id="ending">
+        <strong>
+            <div class="cartotal">Cart Total</div>
+            <div>
+                <div>Sub Total <span style="padding-left: 37%;">N330,000</span></div>
+            </div><hr><br>
+            <div>
+                <div>Shipping Fee <span style="padding-left: 28%;">Free</span></div>
+            </div><hr><br>
+            <div>
+                <div>Total <span style="padding-left: 50%;">N33,000</span></div>
+            </div><br>
+        </strong>
+        <button class="checkout">
+           <div> Process to Checkout</div>
+        </button>
+    </div>
+   </div>
+</body>
+</html>

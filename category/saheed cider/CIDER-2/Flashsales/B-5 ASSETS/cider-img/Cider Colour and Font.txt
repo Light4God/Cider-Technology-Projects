@@ -1,0 +1,22 @@
+Primary Color:
+
+100% #0217EB
+75% #4151F0
+50% #808BF5
+20% #CCD1FB
+
+Secondary Colour
+100% #6119B4
+75% #8C4CF5
+50% #B387F8
+20% #E0CFFC
+
+
+Dark: 
+100% #000000
+75% #404040
+50% #808080
+20% #CCCCCC
+
+Font name:
+Manrope

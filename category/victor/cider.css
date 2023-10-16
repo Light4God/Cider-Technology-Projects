@@ -1,0 +1,28 @@
+body {
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    background: white;
+    margin-top: 5%;
+}
+
+.content {
+   padding-left: 70px;
+}
+
+.blank a{
+    text-decoration: none;
+    width: max-content;
+}
+
+.edit1 {
+    color:  #cccccc ;
+    cursor: pointer;
+}
+
+.edit2 {
+    color: black;
+}
+
+.contlink {
+    margin-top: 50px;
+}

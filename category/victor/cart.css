@@ -1,0 +1,1737 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background: white;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* margin: 8px; */
+    margin-top: 3%;
+}
+
+.container {
+    width: 90%;
+    float: left;
+    margin: auto;
+}
+
+.blank a{
+    text-decoration: none;
+    /* width: max-content; */
+    padding-left: 7px;
+}
+
+.edit1 {
+    color:  #cccccc ;
+    cursor: pointer;
+}
+
+.edit2 {
+    color: #000000;
+}
+
+/*css for multiple similar element */
+.topper {
+    position: relative;
+    height: 42px;
+    text-decoration: none;
+    display: block;  
+    text-align: center;
+    border-radius: 1vh;
+    border-bottom: 20px;
+    border: 0.01em #f1f1f1;
+    font-size: 18px;
+    box-sizing: border-box;
+    box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+}    
+
+.Product {
+    position: absolute;
+    left: 3rem;
+}
+
+.Price {
+    position: absolute;
+    left: 26rem;
+}
+
+.Quality {
+    position: absolute;
+    left: 44rem;
+}
+
+.Total {
+    position: absolute;
+    left: 60rem;
+}
+
+.glasses {
+    position: relative;
+    height: 57px;
+    text-align: center;
+    border-radius: 1vh;
+    border-bottom: 26px;
+    border: 0.01em solid #f1f1f1;
+    font-size: 18px;
+    box-sizing: border-box;
+    box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+}
+
+.myimg1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 5px;
+    top: -12px; 
+}
+.blue {
+    position: absolute;
+    left: 5.5rem;
+}
+
+.action1 {
+    position: absolute;
+    left: 26rem;
+}
+
+#selector {
+    position: absolute;
+    left: 44rem;
+    top: -6px;
+}
+.w3-padding-16 {
+    padding-top: 11px!important;
+    padding-bottom: 4px!important;
+}
+.w3-border {
+    border-radius: 2px solid black!important;
+}
+.w3-input {
+    padding: 4.5px;
+    display: block;
+    border-color: #02030e;
+    border-radius: 4px solid black;
+    box-shadow: 2px 0 4px 0 #d5d0cd, 0 2px 2px 2px #e9efe3d8!important; 
+    width: 25%;
+}
+
+.action2 {
+    position: absolute;
+    left: 60rem;   
+}
+
+.macbook {
+    position: relative;
+    max-width: 100%;
+    height: 57px;
+    text-align: center;
+    border-radius: 1vh;
+    border-bottom: 26px;
+    border: 0.01em solid #f1f1f1;
+    font-size: 18px;
+    box-sizing: border-box;
+    box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(193, 185, 185, 0.12)!important; 
+}
+.myimg2 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: -12px;
+    left: 5px;
+}
+
+.Apple {
+    position: absolute;
+    left: 5.5rem;   
+}
+
+.act {
+    position: absolute;
+    left: 26rem;
+}
+
+#selector1 {
+    position: absolute;
+    left: 44rem;
+    top: -6px;
+}
+
+.act0 {
+    position: absolute;
+    left: 60rem;
+}
+
+/* #returnupdate {
+    position: relative;
+    font-size: 18px;
+    padding-bottom: 7%;
+} */
+
+.return {
+    position: absolute;
+    padding: 0 32px;
+    border: 2px solid #6119B4;
+    border-radius: 0.5vw;
+}
+.return:hover {
+    background: #6119B4;
+    color: #f1f1f1;
+}
+
+.update {
+    position: absolute;
+    /* gap: 14rem; */
+    left: 80%;
+    color: #6119B4;
+    padding: 0 32px;
+    border: 2px solid #6119B4;
+    border-radius: 0.5vw;
+}
+.update:hover {
+    background: #6119B4;
+    color: #f1f1f1;
+}
+
+#codes {
+    position: relative;
+    font-size: 40px;
+    top: 35px;
+    padding-bottom: 5%;
+}
+
+.coupon {
+    position: absolute;
+    padding: 12px 13px;
+    top: 37px;
+    border: 2px solid #6119B4;
+    border-radius: 0.5vw;
+}
+
+.apply {
+    position: absolute;
+    background: #6119B4;  
+    color: #f1f1f1;
+    left: 23%;
+    border-radius: 0.5vw;
+}
+
+.cartotal {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#ending {
+    border: 1px solid #808BF5;
+    width: 260px;
+    border-radius: 3px;
+    resize: both;
+    padding: 10px 10px;
+}
+
+.checkout {
+    background: #0217EB;
+    color:  #CCCCCC;
+    margin-top: 5px;
+    margin-bottom: 23px;
+    border: 2px;
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px;
+    cursor: pointer;
+}
+.checkout:hover {
+    background-color: #8C4CF5;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Extra small devices (phones, 290px and down) */
+@media only screen and (max-width: 290px) {
+    .topper {
+        position: relative;
+        width: 100%;
+        height: 25px;
+        text-decoration: none;
+        display: block;  
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 9px;
+        font-weight: bold;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        width: 100%;
+        height: 28px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 8.4px;
+        font-weight: bold;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        width: 100%;
+        height: 28px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 8px;
+        font-weight: bold;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 0.6rem;
+    }
+    img {
+        position: absolute;
+        width: 13px;
+        height: 10px;
+        left: 1px;
+        top: 20px;
+    }
+    .blue {
+        position: absolute;
+        left: 1.3rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 1.3rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 6.4rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 6.4rem;
+    }
+    .act {
+        position: absolute;
+        left: 6.8rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 10rem;
+    }
+    #selector {
+        position: absolute;
+        left: 10rem;
+        top: -8px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 10rem;
+        top: -8px;
+    }
+    .Total {
+        position: absolute;
+        left: 14rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 14rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 14rem;
+    }
+    .container {
+        text-decoration: none;
+        width: 100%;
+        margin: auto;
+    }
+    .update {
+        position: absolute;
+        left: 55%;
+        color: #6119B4;
+        padding: 0 20px;
+        border: 2px solid #6119B4;
+        border-radius: 0.5vw;
+    }
+    .w3-padding-16 {
+        padding-top: 4px!important;
+        padding-bottom: 4px!important;
+    }
+    .return {
+        padding: 0 3px;
+    }
+    .coupon {
+        padding: 20px 2px 3px 0;
+        font-size: x-small;
+    }
+    .apply {
+        padding: 0 25px;
+        left: 145px;
+        border-radius: 2px;
+    }
+    #codes {
+        position: relative;
+        top: 27px;
+        padding-bottom: 30%;
+    }
+    #ending {
+        text-decoration: none;
+        padding-top: 10%;
+    }
+}
+
+/* Extra small devices (phones, 290px and down) */
+@media only screen and (min-width: 290px) {
+    .topper {
+        position: relative;
+        width: 100%;
+        height: 25px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 9px;
+        font-weight: bold;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        width: 100%;
+        height: 28px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 9px;
+        font-weight: bold;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        width: 100%;
+        height: 28px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 9px;
+        font-weight: bold;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 0.7rem;
+    }
+    img {
+        position: absolute;
+        width: 24px;
+        height: 20px;
+        left: 0.5px;
+        top: 15px;
+    }
+    .blue {
+        position: absolute;
+        left: 1.9rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 1.9rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 8rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 8rem;
+    }
+    .act {
+        position: absolute;
+        left: 8.2rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 11.2rem;
+    }
+    #selector {
+        position: absolute;
+        left: 11.2rem;
+        top: -8px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 11.2rem;
+        top: -8px;
+    }
+    .Total {
+        position: absolute;
+        left: 15.4rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 15.4rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 15.4rem;
+    }
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    .update {
+        position: absolute;
+        left: 56%;
+        color: #6119B4;
+        padding: 0 32px;
+        border: 2px solid #6119B4;
+        border-radius: 0.5vw;
+    }
+    .w3-padding-16 {
+        padding-top: 4px!important;
+        padding-bottom: 4px!important;
+    }
+    .return {
+        padding: 0 8px;
+        border-radius: 2px;
+    }
+    .update {
+        left: 150px;
+    }
+    .apply {
+        padding: 0 25px;
+        left: 150px;
+    }
+    .coupon {
+        padding: 12px 0;
+        font-size:x-small;
+    }
+    
+    #codes {
+        padding-bottom: 25%;
+    }
+}
+
+/* Extra small devices (phones, 345px and down) */
+@media only screen and (min-width: 345px) {
+    .topper {
+        position: relative;
+        width: 100%;
+        height: 33px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 1rem;
+    }
+    img {
+        position: absolute;
+        width: 30px;
+        height: 27px;
+        left: 2px;
+        top: 18px;
+    }
+    .blue {
+        position: absolute;
+        left: 2.7rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 2.7rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 10rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 10rem;
+    }
+    .act {
+        position: absolute;
+        left: 10rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 14rem;
+    }
+    #selector {
+        position: absolute;
+        left: 14rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 14rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 18rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 18rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 18rem;
+    }
+    .update {
+        left: 230px;
+    }
+    .apply {
+        padding: 0 25px;
+        left: 160px;
+    }
+}
+
+/* Extra small devices (phones, 390px and down) */
+@media only screen and (min-width: 390px) {
+    .topper {
+        position: relative;
+        width: 100%;
+        height: 33px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 11px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 2rem;
+    }
+    img {
+        position: absolute;
+        width: 33px;
+        height: 30px;
+        left: 1px;
+        top: 15px;
+    }
+    .blue {
+        position: absolute;
+        left: 2.8rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 2.8rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 10.5rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 10.5rem;
+    }
+    .act {
+        position: absolute;
+        left: 10.5rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 15rem;
+    }
+    #selector {
+        position: absolute;
+        left: 15rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 15rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 20rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 20rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 20rem;
+    }
+    .update {
+        left: 250px;
+    }
+}
+
+/* Extra small devices (phones, 455px and down) */
+@media only screen and (min-width: 455px) {
+    .topper {
+        position: relative;
+        width: 100%;
+        height: 33px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 12px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 11px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 11px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 2rem;
+    }
+    .blue {
+        position: absolute;
+        left: 3rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 3rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 13rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 13rem;
+    }
+    .act {
+        position: absolute;
+        left: 13rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 19rem;
+    }
+    #selector {
+        position: absolute;
+        left: 19rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 19rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 24rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 24rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 24rem;
+    }
+    .update {
+        left: 310px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 505px and up) */
+@media only screen and (min-width: 505px) {
+    .topper {
+        position: relative;
+        height: 33px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 2rem;
+    }
+    img {
+        position: absolute;
+        width: 42px;
+        height: 30px;
+        left: 3px;
+        top: 16px;
+    }
+    .blue {
+        position: absolute;
+        left: 4rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 4rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 14rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 14rem;
+    }
+    .act {
+        position: absolute;
+        left: 14rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 21rem;
+    }
+    #selector {
+        position: absolute;
+        left: 21rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 21rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 28rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 28rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 28rem;
+    }
+    .update {
+        left: 360px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 540px and up) */
+@media only screen and (min-width: 550px) {
+    .topper {
+        position: relative;
+        height: 33px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 2rem;
+    }
+    .blue {
+        position: absolute;
+        left: 4rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 4rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 15rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 15rem;
+    }
+    .act {
+        position: absolute;
+        left: 15rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 23rem;
+    }
+    #selector {
+        position: absolute;
+        left: 23rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 23rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 31rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 31rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 31rem;
+    }
+    .update {
+        left: 410px;
+    }
+    #codes {
+        position: relative;
+        top: 27px;
+        padding-bottom: 15%;
+    }
+    #ending {
+        text-decoration: none;
+        padding-bottom: 8px;
+    }
+}
+
+/* Medium devices (landscape tablets, 630px and up) */
+@media only screen and (min-width: 630px) {
+    .topper {
+        position: relative;
+        height: 33px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 12px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 11px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        height: 40px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 11px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 1.2rem;
+    }
+    .blue {
+        position: absolute;
+        left: 3.6rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 3.6rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 17rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 17rem;
+    }
+    .act {
+        position: absolute;
+        left: 17rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 26rem;
+    }
+    #selector {
+        position: absolute;
+        left: 26rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 26rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 34rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 34rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 34rem;
+    }
+    .update {
+        left: 490px;
+    }
+}
+
+/* Medium devices (landscape tablets, 710px and up) */
+@media only screen and (min-width: 710px) {
+    .topper {
+        position: relative;
+        height: 38px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        height: 50px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        height: 50px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 2rem;
+    }
+    img {
+        position: absolute;
+        width: 60px;
+        height: 40px;
+        left: 4px;
+        top: 16px;
+    }
+    .blue {
+        position: absolute;
+        left: 4.7rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 4.7rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 19rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 19rem;
+    }
+    .act {
+        position: absolute;
+        left: 19rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 29rem;
+    }
+    #selector {
+        position: absolute;
+        left: 29rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 29rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 39rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 39rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 39rem;
+    }
+    .update {
+        left: 570px;
+    }
+    #codes {
+        padding-bottom: 15%;
+    }
+} 
+
+/* Large devices (laptops/desktops, 780px and up) */
+@media only screen and (min-width: 780px) {
+    
+    .topper {
+        position: relative;
+        height: 40px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 17px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        height: 55px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        height: 55px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 1rem;
+    }
+    img {
+        position: absolute;
+        width: 60px;
+        height: 40px;
+        left: 1rem;
+        top: 16px;
+    }
+    .blue {
+        position: absolute;
+        left: 5.4rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 5.4rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 23rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 23rem;
+    }
+    .act {
+        position: absolute;
+        left: 23rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 34rem;
+    }
+    #selector {
+        position: absolute;
+        left: 34rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 34rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 43.5rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 44rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 44rem;
+    }
+    .update {
+        left: 660px;
+    }
+}
+
+/* Large devices (laptops/desktops, 860px and up) */
+@media only screen and (min-width: 860px) {
+    .topper {
+        position: relative;
+        height: 40px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 17px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        height: 55px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        height: 55px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 2rem;
+    }
+    .blue {
+        position: absolute;
+        left: 5.8rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 5.8rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 23rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 23rem;
+    }
+    .act {
+        position: absolute;
+        left: 23rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 35rem;
+    }
+    #selector {
+        position: absolute;
+        left: 35rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 35rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 49rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 49rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 49rem;
+    }
+    .update {
+        left: 730px;
+    }
+    #codes {
+        padding-bottom: 10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 950px and up) */
+@media only screen and (min-width: 950px) {
+    .topper {
+        position: relative;
+        height: 40px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 17px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        height: 55px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        height: 55px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 16px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 2rem;
+    }
+    img {
+        position: absolute;
+        width: 68px;
+        height: 45px;
+        left: 5px;
+        top: 15px;
+    }
+    .blue {
+        position: absolute;
+        left: 5rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 5rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 25rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 25rem;
+    }
+    .act {
+        position: absolute;
+        left: 25rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 40rem;
+    }
+    #selector {
+        position: absolute;
+        left: 40rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 40rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 54rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 54rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 54rem;
+    }
+    .update {
+        left: 810px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1100px and up) */
+@media only screen and (min-width: 1100px) {
+    .topper {
+        position: relative;
+        height: 42px;
+        text-decoration: none;
+        /* display: block;   */
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 20px;
+        border: 0.01em #f1f1f1;
+        font-size: 18px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+    }
+    .glasses {
+        position: relative;
+        height: 56px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 18px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .macbook {
+        position: relative;
+        height: 56px;
+        text-align: center;
+        border-radius: 1vh;
+        border-bottom: 26px;
+        border: 0.01em solid #f1f1f1;
+        font-size: 18px;
+        box-sizing: border-box;
+        box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+    }
+    .Product {
+        position: absolute;
+        left: 3rem;
+    }
+    .blue {
+        position: absolute;
+        left: 6rem;
+    }
+    .Apple {
+        position: absolute;
+        left: 6rem;   
+    }
+    .Price {
+        position: absolute;
+        left: 28rem;
+    }
+    .action1 {
+        position: absolute;
+        left: 28rem;
+    }
+    .act {
+        position: absolute;
+        left: 28rem;
+    }
+    .Quality {
+        position: absolute;
+        left: 46rem;
+    }
+    #selector {
+        position: absolute;
+        left: 46rem;
+        top: -6px;
+    }
+    #selector1 {
+        position: absolute;
+        left: 46rem;
+        top: -6px;
+    }
+    .Total {
+        position: absolute;
+        left: 64rem;
+    }
+    .action2 {
+        position: absolute;
+        left: 64rem;   
+    }
+    .act0 {
+        position: absolute;
+        left: 64rem;
+    }
+    .update {
+        left: 80%;
+    }
+    .apply {
+        padding: 0 40px;
+        left: 180px;
+    }
+    .coupon {
+        font-size: x-small;
+    }
+    #codes {
+        padding-bottom: 10%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1350px and up) */
+@media only screen and (min-width: 1350px) {
+        .topper {
+            position: relative;
+            height: 42px;
+            text-decoration: none;
+            /* display: block;   */
+            text-align: center;
+            border-radius: 1vh;
+            border-bottom: 20px;
+            border: 0.01em #f1f1f1;
+            font-size: 18px;
+            box-sizing: border-box;
+            box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important;    
+        }
+        .glasses {
+            position: relative;
+            height: 56px;
+            text-align: center;
+            border-radius: 1vh;
+            border-bottom: 26px;
+            border: 0.01em solid #f1f1f1;
+            font-size: 18px;
+            box-sizing: border-box;
+            box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+        }
+        .macbook {
+            position: relative;
+            height: 56px;
+            text-align: center;
+            border-radius: 1vh;
+            border-bottom: 26px;
+            border: 0.01em solid #f1f1f1;
+            font-size: 18px;
+            box-sizing: border-box;
+            box-shadow: 2px 0 2px 0 #808080,4px 2px 4px 2px rgba(166, 152, 152, 0.12)!important; 
+        }
+        .Product {
+            position: absolute;
+            left: 5rem;
+        }
+        img {
+            position: absolute;
+            width: 75px;
+            height: 60px;
+            left: 5px;
+            top: 15px;
+        }
+        .blue {
+            position: absolute;
+            left: 8rem;
+        }
+        .Apple {
+            position: absolute;
+            left: 8rem;   
+        }
+        .Price {
+            position: absolute;
+            left: 35rem;
+        }
+        .action1 {
+            position: absolute;
+            left: 35rem;
+        }
+        .act {
+            position: absolute;
+            left: 35rem;
+        }
+        .Quality {
+            position: absolute;
+            left: 52rem;
+        }
+        #selector {
+            position: absolute;
+            left: 52rem;
+            top: -6px;
+        }
+        #selector1 {
+            position: absolute;
+            left: 52rem;
+            top: -6px;
+        }
+        .Total {
+            position: absolute;
+            left: 68rem;
+        }
+        .action2 {
+            position: absolute;
+            left: 68rem;   
+        }
+        .act0 {
+            position: absolute;
+            left: 68rem;
+        }
+}
+
+
+/* useable color 
+color {
+    color: 
+    100% #0217EB
+    75% #4151F0
+    50% #808BF5
+    20% #CCD1FB
+    
+    Secondary Colour
+    100% #6119B4
+    75% #8C4CF5
+    50% #B387F8
+    20% #E0CFFC
+    
+    
+       Dark
+    100% #000000
+    75% #404040
+    50% #808080
+    20% #CCCCCC;
+} */

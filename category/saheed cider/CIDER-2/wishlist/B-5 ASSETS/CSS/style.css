@@ -1,0 +1,69 @@
+
+.viewall {
+justify-content: space-between;
+padding-top: 55px;
+padding-bottom: 35px;
+}
+.rating-text {
+    line-height: 10px;
+    padding-top: 20px;
+}
+.ri-heart-line {
+    background-color: #4B0082; 
+    width: 31px;
+    border-radius: 50% ;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 6px;
+    float: right;
+}
+.ri-heart-line:hover {
+    background-color: blue;
+}
+.ri-shopping-cart-2-line {
+    background-color: #4B0082; 
+    border-radius: 50% ;
+    font-size: 18px;
+    width: 31px;
+    text-align: center;
+    float: right;
+    margin-top: 0px;
+}
+.ri-shopping-cart-2-line:hover {
+    background-color: blue;
+}
+#price {
+    color: #4B0082;
+    font-size: 18px;
+    font-weight: 500;
+}
+#first-section {
+ display: flex;
+ justify-content: center;
+ margin-top: 40px;
+}
+.star {
+    color: #ffd700;
+    font-weight: 500px;
+    font-size: 17px;
+}
+.button:hover {
+    background-color: blue;
+}
+.second-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.div-card{
+    width: 100%;
+   
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.row-2{
+    display: flex;
+    gap: 50px;
+}
